@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(251, 192, 43);
+    font-family: 'Belanosima', sans-serif;
+    color: rgb(92, 47, 0);
+}   
+    
+
+.articolo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;  
+  align-content: center;
+  flex-grow: 1;
+}
+img{
+    width: 100%
+   
+}
+.foto{
+    width: 45vw;
+}
+
+.testo{
+    width: 45vw; 
+    padding-left: 2em;
+}

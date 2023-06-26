@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4d05b;
+  }
+.card{
+    background-color:#f1ecb6;
+    width: 20em;
+    border-radius:85px;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+.scritta{
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ color: #682A0C;
+ font-family: 'Belanosima', sans-serif;
+
+}
+
+.barra p{
+  font-size: 15px;
+}
+ 
+.italy{
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ padding-left: 2em;
+ padding-top: 0.5em;
+}
+
+input{
+  background-color: rgb(246, 208, 21);
+ padding-left: 30px;
+ padding-right: 30px;
+ height: 30px;
+  border-radius: 25px;
+  margin: 1em;
+  font-family: 'Belanosima', sans-serif;
+}
+
+input:hover{
+cursor: pointer;
+}
+.card:hover{
+  box-shadow: black 0px 0px 10px;
+}
+
+nav{
+  background-color: rgb(231, 188, 15);
+  padding:4em;
+  border-radius: 120px;  
+}
+nav span{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f1ecb6;
+  border-radius: 80px;
+  font-family: 'Belanosima', sans-serif;
+  color: brown;
+  font-size: large;
+  margin: 1em;
+}
+
+
+span:hover{
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:1.5em;
+  font-weight: bolder;
+}
+
+
+nav:hover{
+  background-image: url(alveare.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+ 
